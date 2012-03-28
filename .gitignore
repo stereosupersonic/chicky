@@ -20,14 +20,13 @@ db/*.sqlite3
 /tmp
 
 # various artifacts
-**.war
 *.rbc
 *.sassc
-.rspec
-.redcar/
+.rspec 
 .sass-cache
 /config/config.yml
 /config/database.yml
+/config/constants.rb
 /coverage.data
 /coverage/
 /db/*.javadb/
