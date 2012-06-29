@@ -1,0 +1,16 @@
+1. create from template
+   rails new chicky  -m https://raw.github.com/RailsApps/rails3-application-templates/master/rails3-bootstrap-devise-cancan-template.rb -T
+  
+2. Add Remote
+  git remote add  origin git://github.com:stereosupersonic/chicky.git  
+
+3. Create User Model
+   be rails g model user email name
+
+4. Setup CanCan
+  rails g cancan:ability
+  
+  
+    
+5. setup anntote
+  Gemfile <<   gem 'annotate', ">=2.5.0.pre1"
