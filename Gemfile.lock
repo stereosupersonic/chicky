@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/ctran/annotate_models.git
+  revision: bef0c494956e516540b7a9e72fa03be6576031dd
+  specs:
+    annotate (2.5.0.pre1)
+      rake
+
+GIT
   remote: https://github.com/stereosupersonic/g
   revision: f9897e1c8915fde4c51c530976646ff8667fd834
   specs:
@@ -36,9 +43,8 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     addressable (2.2.8)
-    annotate (2.5.0.pre1)
-      rake
     arel (3.0.2)
+    bcrypt-ruby (3.0.1)
     bootstrap-sass (2.0.4.0)
     builder (3.0.0)
     cancan (1.6.8)
@@ -235,7 +241,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  annotate (>= 2.5.0.pre1)
+  annotate!
+  bcrypt-ruby (~> 3.0.0)
   bootstrap-sass (>= 2.0.3)
   cancan (>= 1.6.7)
   capistrano
