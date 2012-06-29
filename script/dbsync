@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+#/ Usage: script/dbsync 
+#/ Syncs the production database with the local develoment
